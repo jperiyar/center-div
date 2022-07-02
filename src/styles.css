@@ -18,6 +18,24 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.absolute-margin-auto {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  position: relative;
+}
+.absolute-margin-auto div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
 .flex-demo {
   width: 500px;
   height: 500px;
@@ -45,13 +63,26 @@ body {
   background-color: hsl(0, 100%, 25%);
 }
 
-.margin-demo {
+.margin-grid-demo {
   width: 500px;
   height: 500px;
   background-color: hsl(100, 50%, 50%);
   display: grid;
 }
-.margin-demo div {
+.margin-grid-demo div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+  margin: auto;
+}
+
+.margin-flex-demo {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  display: flex;
+}
+.margin-flex-demo div {
   width: 100px;
   height: 100px;
   background-color: hsl(0, 100%, 25%);
