@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.absolute {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  position: relative;
+}
+.absolute div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex-demo {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-demo div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+}
+
+.grid-demo {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  display: grid;
+  place-items: center;
+}
+.grid-demo div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+}
+
+.margin-demo {
+  width: 500px;
+  height: 500px;
+  background-color: hsl(100, 50%, 50%);
+  display: grid;
+}
+.margin-demo div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(0, 100%, 25%);
+  margin: auto;
+}
